@@ -1,0 +1,316 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Karla", sans-serif;
+}
+
+header {
+  /* border: 2px solid lightgreen; */
+  height: 4rem;
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+
+nav {
+  /* border: 2px solid orangered; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 9rem;
+  padding-right: 9rem;
+  height: 100%;
+}
+
+.nav-items {
+  /* border: 2px solid purple; */
+  min-width: 22rem;
+}
+
+.nav-items ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.7rem;
+}
+
+.nav-items ul button {
+  border: 1px solid hsl(256, 26%, 20%);
+  padding: 0.5rem 1rem;
+  background-color: white;
+  font-size: 0.7rem;
+  width: 8rem;
+  transition: 0.4s all;
+}
+
+.nav-items ul button:hover {
+  background-color: hsl(256, 26%, 20%);
+  color: white;
+  border-radius: 1rem;
+}
+
+.statement {
+  /* border: 2px solid orange; */
+  position: relative;
+  min-height: 40rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 2rem 9rem 2rem 9rem;
+  min-width: 60rem;
+  background-color: hsl(256, 26%, 20%);
+}
+
+.play {
+  position: absolute;
+  right: 9rem;
+  top: 7rem;
+}
+
+.info {
+  /* border: 2px solid red; */
+  width: 45%;
+  min-height: 25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  color: white;
+  padding-right: 2.5rem;
+  /* border-top: 1px solid white; */
+}
+
+.info button {
+  border: 1px solid white;
+  padding: 0.5rem 1rem;
+  background-color: transparent;
+  font-size: 0.7rem;
+  color: white;
+  width: 10rem;
+  transition: 0.4s all;
+  font-size: 0.9rem;
+}
+
+.info button:hover {
+  background-color: white;
+  color: hsl(256, 26%, 20%);
+  border-radius: 1rem;
+}
+
+.info h1 {
+  font-size: 3.5rem;
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+}
+
+.info p {
+  font-size: 1.2rem;
+  line-height: 2rem;
+}
+
+.right {
+  /* border: 4px solid red; */
+  position: absolute;
+  right: 0;
+  z-index: 4;
+  top: 0;
+  height: 32rem;
+}
+
+.left {
+  /* border: 2px solid blue; */
+  position: absolute;
+  left: -1rem;
+  top: 29rem;
+}
+
+.features {
+  /* border: 2px solid orange; */
+  margin-top: 17rem;
+  padding: 2rem 9rem 2rem 9rem;
+  min-height: 30rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.features h1 {
+  font-size: 3.5rem;
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+}
+
+.features ul {
+  /* border: 2px solid red; */
+  list-style: none;
+  display: flex;
+  min-height: 19rem;
+  margin-top: 4rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.features ul li {
+  /* border: 2px solid green; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin-right: 1.5rem;
+  min-height: 18rem;
+}
+
+.features ul li:last-child {
+  margin-right: 0;
+}
+
+.features ul li h2 {
+  font-size: 1.7rem;
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+}
+
+.features ul li p {
+  font-size: 1.1rem;
+  line-height: 1.7rem;
+}
+
+.how {
+  /* border: 2px solid green; */
+  margin-top: 20vh;
+  margin-left: 9rem;
+  margin-right: 9rem;
+  position: relative;
+  min-height: 15.7rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 4rem;
+  background-color: hsl(256, 26%, 20%);
+  color: white;
+  margin-bottom: 10rem;
+}
+
+.how img {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 1;
+}
+
+.how h1 {
+  font-size: 2.7rem;
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  /* border: 2px solid red; */
+}
+/* 
+.how button {
+  font-size: 1.2rem;
+  background: transparent;
+  border: 1px solid white;
+  color: white;
+  padding: 1rem;
+} */
+
+.how button {
+  border: 1px solid white;
+  padding: 0.5rem 1rem;
+  background-color: transparent;
+  font-size: 0.7rem;
+  color: white;
+  width: 10rem;
+  transition: 0.4s all;
+  font-size: 0.9rem;
+  position: absolute;
+  right: 4rem;
+  z-index: 4;
+}
+
+.how button:hover {
+  background-color: white;
+  color: hsl(256, 26%, 20%);
+  border-radius: 1rem;
+}
+
+footer {
+  /* border: 2px solid red; */
+  padding-bottom: 3rem;
+  /* background-color: rgb(224, 224, 224); */
+  background-color: hsl(0, 0%, 98%);
+  position: relative;
+}
+
+.pat {
+  position: absolute;
+  z-index: 1;
+}
+
+.social {
+  /* border: 2px solid green; */
+  display: flex;
+  /* padding-left: 9rem; */
+  /* padding-right: 9rem; */
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  z-index: 44;
+  margin-left: 9rem;
+  margin-right: 9rem;
+  border-bottom: 1px solid rgb(189, 189, 189);
+  margin-bottom: 2rem;
+}
+
+.social ul {
+  list-style: none;
+  display: flex;
+  /* border: 2px solid red; */
+  width: 10rem;
+  height: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.links {
+  /* border: 2px solid peru; */
+  display: flex;
+  padding: 0 9rem;
+  justify-content: space-between;
+  min-height: 10rem;
+  width: 85%;
+  position: relative;
+  z-index: 22;
+}
+
+.box {
+  /* border: 2px solid blue; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.box ul {
+  list-style: none;
+  /* border: 2px solid red; */
+  min-height: 7rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.box ul li {
+  color: hsl(256, 26%, 20%);
+}
+
+.box p {
+  color: gray;
+}
