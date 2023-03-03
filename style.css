@@ -318,6 +318,8 @@ footer {
   height: 1px;
   background-color: grey;
   margin: 3rem auto;
+  position: relative;
+  z-index: 9243;
 }
 
 .links {
