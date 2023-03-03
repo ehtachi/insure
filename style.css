@@ -105,7 +105,7 @@ nav {
 .main {
   /* border: 2px solid orange; */
   position: relative;
-  height: 70vh;
+  height: 80vh;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -144,7 +144,7 @@ nav {
 .main p {
   line-height: 1.9rem;
   font-family: "Karla", sans-serif;
-  font-size: 1.3rem;
+  font-size: 1rem;
 }
 
 .main button {
@@ -192,7 +192,7 @@ nav {
   display: block;
   height: 2px;
   width: 10rem;
-  background-color: rgb(232, 150, 163);
+  background-color: hsl(286, 28%, 41%);
   margin: auto;
   margin-bottom: 3rem;
 }
@@ -273,4 +273,101 @@ nav {
   color: hsl(256, 26%, 20%);
   background-color: white;
   border-radius: 0.5rem;
+}
+
+footer {
+  margin-top: 10rem;
+  background-color: hsl(0, 0%, 98%);
+  min-height: 90vh;
+  padding-top: 5rem;
+  position: relative;
+}
+
+.logo {
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+  position: relative;
+  z-index: 85;
+}
+
+.social {
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 878;
+}
+
+.social ul {
+  list-style: none;
+  /* border: 2px solid orange; */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 50%;
+}
+
+.start::after {
+  content: "";
+  display: block;
+  width: 90%;
+  height: 1px;
+  background-color: grey;
+  margin: 3rem auto;
+}
+
+.links {
+  /* border: 2px solid orangered; */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.pop {
+  height: 15rem;
+  /* border: 2px solid green; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  padding: 0.5rem;
+  padding-bottom: 0;
+}
+
+.pop ul {
+  list-style: none;
+  /* border: 2px solid red; */
+  height: 9rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.pop ul,
+.pop h3 {
+  font-family: "Karla", sans-serif;
+  letter-spacing: 0.15rem;
+}
+
+.pop ul {
+  font-weight: 700;
+}
+
+.pop h3 {
+  color: grey;
+}
+
+.foo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 6;
+  width: 100%;
 }
