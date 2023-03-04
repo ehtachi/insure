@@ -276,7 +276,7 @@ nav {
 }
 
 footer {
-  margin-top: 10rem;
+  margin-top: 8rem;
   background-color: hsl(0, 0%, 98%);
   min-height: 90vh;
   padding-top: 5rem;
@@ -331,7 +331,7 @@ footer {
 }
 
 .pop {
-  height: 15rem;
+  height: 12rem;
   /* border: 2px solid green; */
   display: flex;
   flex-direction: column;
