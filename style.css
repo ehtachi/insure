@@ -323,7 +323,7 @@ footer {
 
 .links {
   /* border: 2px solid orangered; */
-  height: 120vh;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -339,6 +339,8 @@ footer {
   /* text-align: center; */
   padding: 0.5rem;
   padding-bottom: 0;
+  position: relative;
+  z-index: 37482;
 }
 
 .pop ul {
@@ -437,7 +439,8 @@ footer {
     /* border: 2px solid green; */
     align-items: flex-start;
     text-align: left;
-    height: 62vh;
+    min-height: 35rem;
+    height: 32vh;
     padding-left: 5rem;
   }
 
@@ -535,9 +538,9 @@ footer {
   }
 
   .find h1 {
-    font-size: 3.5rem;
+    /* font-size: 3.5rem; */
     /* border: 2px solid red; */
-    width: 30%;
+    width: 50%;
   }
 
   .find button {
@@ -605,6 +608,10 @@ footer {
 }
 
 @media screen and (min-width: 1070px) {
+  .find h1 {
+    font-size: 3.5rem;
+  }
+
   .main h1 {
     font-size: 3.5rem;
   }
